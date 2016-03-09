@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lobster");
-@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -1008,7 +1007,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -4435,7 +4434,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -4541,7 +4540,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5029,7 +5028,7 @@ button.close {
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
-  font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 20px;
   color: #404040; }
 
@@ -5041,11 +5040,12 @@ p a {
   text-decoration: underline; }
 
 h2, h3, h4, h5, h6 {
-  font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800; }
 
 .intro-header .site-heading h1, .intro-header .page-heading h1 {
-  font-family: 'Lobster', sans-serif; }
+  font-family: 'Open Sans', sans-serif; 
+}
 
 a {
   color: #404040; }
@@ -5073,7 +5073,7 @@ hr.small {
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: 'Ubuntu', Helvetica, Arial, sans-serif; }
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif; }
 
 .navbar-custom .nav li a {
   text-transform: uppercase;
@@ -5375,17 +5375,17 @@ img {
 
 body {
   font-size: 18px;
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: 'Open Sans', sans-serif; }
 
 #page-body {
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: 'Open Sans', sans-serif; }
 
 pre > code {
   font-size: 18px; }
 
 .site-heading > h1 {
-  font-family: 'Lobster', sans-serif;
-  text-shadow: 0 0 5px black; }
+  text-shadow: 0 0 5px black; 
+}
 
 .intro-header {
   background-color: #203C49; }
