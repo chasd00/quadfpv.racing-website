@@ -1,10 +1,10 @@
 {
-  "name": "BootstrapTheme",
-  "description": "Simple theme using Bootstrap",
-  "version": "0.1.0",
+  "name": "quadfpv.racing",
+  "description": "Bootstrap based theme",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/chasd00/quadfpv.racing-website"
   },
   "devDependencies": {
     "gulp": "~3.9.0",
