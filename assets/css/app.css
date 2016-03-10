@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url("https://fonts.googleapis.com/css?family=Lobster");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700");
 html {
   font-family: sans-serif;
@@ -1057,7 +1057,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -5189,7 +5189,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5302,7 +5302,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5846,7 +5846,7 @@ h6 {
 
 .intro-header .site-heading h1,
 .intro-header .page-heading h1 {
-  font-family: 'Lobster', sans-serif; }
+  font-family: 'Ubuntu', sans-serif; }
 
 a {
   color: #404040; }
@@ -6195,22 +6195,42 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1; }
 
+.navbar-custom {
+  background-color: #203C49;
+  color: #ffffff;
+  border-radius: 0; }
+
+.navbar-custom .navbar-nav > li > a {
+  color: #fff; }
+
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: transparent; }
+
+.navbar-custom .navbar-brand {
+  color: #eeeeee; }
+
+.navbar-custom button.navbar-toggle:hover, .navbar-custom button.navbar-toggle:focus, .navbar-custom button.navbar-toggle:active {
+  background-color: #203C49; }
+
 img {
   width: 100%; }
 
 body {
   font-size: 18px;
-  font-family: "Ubuntu", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 #page-body {
-  font-family: "Ubuntu", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 pre > code {
   font-size: 18px; }
 
-.site-heading > h1 {
-  font-family: 'Lobster', sans-serif;
+.site-heading h1 {
   text-shadow: 0 0 5px black; }
+
+.site-heading a, .site-heading a:hover {
+  color: #fff; }
 
 .intro-header {
   background-color: #203C49; }
