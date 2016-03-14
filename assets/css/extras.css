@@ -1,0 +1,18 @@
+p a[href^="http://"]:after {
+  content: "\f08e";
+  font-family: FontAwesome;
+  font-size:0.5em;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  position: relative;
+  top:-6px;
+  text-decoration: none;
+  padding-left: 3px;
+}
+/* Strip from links to own domain or with class no_icon */
+p a[href^="http://own-domain.com"]:before,
+p a.no_icon:after {
+  content:"" !important;
+  padding-left: 0;
+}
